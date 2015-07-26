@@ -1,0 +1,41 @@
+/*photoshop1 page*/
+
+
+#backbtn p{
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+	display: table;
+	height: 30px;
+	width: 200px;
+	font-size: 18px;
+	border: 2px #3d848c solid;
+	border-radius: 5px;
+}
+#backbtn a {
+	color:#3d848c ;
+	text-decoration: none;
+}
+#mtitle h2{
+	margin-left:20px;
+	border-bottom: 1px;
+
+}
+
+.player{
+	border-bottom: 1px #000 solid;
+}
+#picintro{
+	text-align: center;
+	display: table;
+	margin:0 auto;
+	padding: 0 auto;
+	height:300px;
+	margin-top: 100px;
+}
+#hillswideo{
+;
+}
+#hillvideo{
+	margin-top: 30px;
+}

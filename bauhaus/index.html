@@ -1,0 +1,105 @@
+
+<html>
+	<head>
+		<title>Bauhaus</title>
+        <meta name="Bauhaus" content="art,history,bauhaus,modern">
+        <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' type='text/css' media='all' />
+        <link href="css/style1.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<script type='text/javascript' src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
+		<script type='text/javascript' src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="src/backstretch.js"></script>
+		<script type="text/javascript" src="src/transit.js"></script>
+		<script type="text/javascript" src="src/jquery.simpleslider.js"></script>
+		<script type="text/javascript" src="src/touchSwipe.js"></script>
+		<script type="text/javascript" src="src/custom.js"></script>
+		<script src="js/index.js"></script>
+
+	</head>
+    
+       <style>
+		.navbar-default{
+			background-color:#2F2F2F;
+			border-color:#2F2F2F;
+			opacity:0.7;}
+		.navbar-brand > img {
+			opacity:1;
+		}
+		.navbar-nav > li > a:hover {background:#706F6F !important;color:#FFFFFF !important;}
+		.navbar-nav > li:last-of-type > a {border:0;}
+		@media ( min-width: 768px) {
+			.navbar-nav > li > a {text-align:center;border-right:1px solid rgba(192,192,192,0.3)}
+		}
+    </style>
+	<body>
+
+<header id="top">
+    <nav class="navbar navbar-default equinav" role="navigation">
+      <div class="navbar-header">
+      <!--toggle-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="navbar-brand" ><a href="#";><img style="height:45px; z-index:1000001; width:45px;margin-top:0px;" src="img/logo2.png"></a></span>
+        <span class="navbar-brand">Menu</span>
+      </div><!-- /.navbar-header -->
+      <div class="collapse navbar-collapse">    
+        <ul class="nav navbar-nav">
+        	<li><a href="index.html">Home</a></li>
+            <li><a href="bauhausInfor.html">Bauhaus</a></li>
+            <li><a href="bauhausInfor.html#master">Master Designer</a></li>
+            <li><a href="bauhausInfor.html#interior">Interior</a></li>
+            <li><a href="bauhausInfor.html#four">Contact Us</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+  	</nav>
+  </div>
+		</header>
+			<div class='pageblock' id='fullscreen'>
+				<div class='slider'>
+					<div class='slide' id="first">
+						<div class='slidecontent'>
+							<span class="headersur">Arts and Technology</span>
+							<h1>Bauhaus</h1>
+							<div class="button" onclick="mainslider.nextSlide();">Master Design</div>
+						</div>
+					</div>
+					<div class='slide' id="sec">
+						<div class='slidecontent'>
+							<span class="headersur">Le Corbusier</span>
+							<h1>Villa Savoy</h1>
+							<div class="text">
+
+								<div class="button" onclick="mainslider.nextSlide();">Not only
+                                Architectural</div>
+							</div>
+						</div>
+					</div>
+					<div class='slide' id="thirth">
+						<div class='slidecontent'>
+							<span class="headersur">Ludwig Mies van der Roh</span>
+							<h1>Less is more</h1>
+							<div class="text">
+						<div class="button" onclick="mainslider.nextSlide();">Interior</div>
+							</div>
+						</div>
+					</div>
+					<div class='slide' id="fourth">
+						<div class='slidecontent'>
+							<span class="headersur">Datao Ando</span>
+							<h1>Three Eelements</h1>
+							<div class="text">
+                            <div class="button"><a href="bauhausInfor.html" target="_BLANK">See More</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

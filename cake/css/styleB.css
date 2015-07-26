@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+#apDiv1 {
+	position:absolute;
+	left:279px;
+	top:27px;
+	width:1309px;
+	height:1417px;
+	z-index:1;
+	background-color: #FFFFFF;
+}
+#logo {
+	position:absolute;
+	left:869px;
+	top:24px;
+	width:123px;
+	height:99px;
+	z-index:2;
+}
+#nav {
+	position:absolute;
+	left:274px;
+	top:139px;
+	width:658px;
+	height:70px;
+	z-index:3;
+}
+
+#apDiv5 {
+	position:absolute;
+	left:324px;
+	top:757px;
+	width:1068px;
+	height:623px;
+	z-index:5;
+}
+
+#apDiv10 {
+	position:absolute;
+	left:-3px;
+	top:1195px;
+	width:1900px;
+	height:245px;
+	z-index:10;
+}
+#apDiv11 {
+	position:absolute;
+	left:3px;
+	top:0px;
+	width:1823px;
+	height:376px;
+	z-index:11;
+}
+#apDiv12 {
+	position:absolute;
+	left:390px;
+	top:31px;
+	width:1110px;
+	height:1394px;
+	z-index:0;
+	background-color: #FFF;
+}
+#logo2 {
+	position:absolute;
+	left:886px;
+	top:1187px;
+	width:119px;
+	height:114px;
+	z-index:11;
+}
+
+#apDiv4{
+	position:absolute;
+	left:385px;
+	top:419px;
+	width:1120px;
+	height:699px;
+	z-index:12;
+}
+#apDiv4 table {
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	color:#C03;
+	text-align: center;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+}
+
+#apDiv4 table td th{
+		border:none;
+}
+#apDiv6 {
+	position:absolute;
+	font-family:"Comic Sans MS", cursive;
+	font-size:25px;
+	color:#C03;
+	left:101px;
+	top:-108px;
+	width:464px;
+	height:60px;
+	z-index:13;
+	font-weight: bold;
+}
